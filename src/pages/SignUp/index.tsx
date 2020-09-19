@@ -8,4 +8,4 @@ const SignUp: React.FC = () => {
     );
 }
 
-export default SignIn;
+export default SignUp;
