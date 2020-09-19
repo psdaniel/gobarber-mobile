@@ -47,7 +47,7 @@ const SignUp: React.FC = () => {
 
                         <Input name="password" icon="lock" placeholder="Senha"/>
 
-                        <Button onPress={() => { console.log('Deu')}}>Entrar</Button>
+                        <Button onPress={() => formRef.current?.submitForm()}>Entrar</Button>
                     </Form>
                 </Container>
                 </ScrollView>
